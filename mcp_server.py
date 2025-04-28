@@ -16,5 +16,5 @@ def get_weather(city: str) -> dict:
         return {"error": str(e)}
 
 if __name__ == "__main__":
-    print("🌤️ Starting Weather MCP Server (no API)...")
+    print("Starting Weather MCP Server (no API)...")
     mcp.run()
